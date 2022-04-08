@@ -37,8 +37,21 @@ img {
 	max-width: 300px;
 }
 
+.checkboxes label {
+	display: flex;
+	align-items: center;
+}
+
+.checkboxes input {
+	flex: none;
+}
+
 .btn {
 	background-color: yellow;
 	width: 150px;
 	height: 30px;
+}
+
+.normal {
+	display: block;
 }
